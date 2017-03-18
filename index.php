@@ -66,7 +66,7 @@
 						<img class="Loric-img" src="images/photo_Loric.jpg">
 					</div>
 					<div class="information-content">
-						<p>Je m'appelle Loric, j'ai 19 ans et je suis étudiant en DUT Informatique à l'IUT d'Annecy !<br>Passionné par le développement Web, 	j'ai 	réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez aussi la possibilité de me contacter par mail, 	alors si mon 	profil vous intéresse n'hésitez pas !</p>
+						<p>Je m'appelle Loric, j'ai 19 ans et je suis étudiant en DUT Informatique à l'IUT d'Annecy !<br>Passionné par le développement Web, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez aussi la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
 						<div class="button-content">
 							<button class="button">
 								<a class="button-link" href="files/CV_LoricLedent.pdf" download="CV_LoricLedent.pdf">Télécharger mon CV</a>
@@ -87,44 +87,44 @@
 					<div class="skillbar-subtitle"><span>Laravel</span></div>
 					<div class="skillbar-bar" style="background: #DD7E03;"></div>
 					<div class="skill-bar-percent">90%</div>
-				</div> <!-- End Skill Bar -->
+				</div>
 				
 				<div class="skillbar clearfix " data-percent="85%">
 					<div class="skillbar-title" style="background: #FFCC15;"><span>JS / jQuery</span></div>
 					<div class="skillbar-bar" style="background: #FFCC15;"></div>
 					<div class="skill-bar-percent">85%</div>
-				</div> <!-- End Skill Bar -->
+				</div>
 				
 				<div class="skillbar clearfix " data-percent="85%">
 					<div class="skillbar-title" style="background: #0EDD4F;"><span>HTML / CSS</span></div>
 					<div class="skillbar-subtitle"><span>Materialize</span></div>
 					<div class="skillbar-bar" style="background: #0EDD4F;"></div>
 					<div class="skill-bar-percent">85%</div>
-				</div> <!-- End Skill Bar -->
+				</div>
 				
 				<div class="skillbar clearfix " data-percent="80%">
 					<div class="skillbar-title" style="background: #1A9072;"><span>SQL</span></div>
 					<div class="skillbar-bar" style="background: #1A9072;"></div>
 					<div class="skill-bar-percent">80%</div>
-				</div> <!-- End Skill Bar -->
+				</div>
 				
 				<div class="skillbar clearfix " data-percent="70%">
 					<div class="skillbar-title" style="background: #5D5DAA;"><span>c#</span></div>
 					<div class="skillbar-bar" style="background: #5D5DAA;"></div>
 					<div class="skill-bar-percent">70%</div>
-				</div> <!-- End Skill Bar -->
+				</div>
 
 				<div class="skillbar clearfix " data-percent="60%">
 					<div class="skillbar-title" style="background: #8787F6;"><span>Android</span></div>
 					<div class="skillbar-bar" style="background: #8787F6;"></div>
 					<div class="skill-bar-percent">60%</div>
-				</div> <!-- End Skill Bar -->
+				</div>
 				
 				<div class="skillbar clearfix " data-percent="50%">
 					<div class="skillbar-title" style="background: #6F6FA9;"><span>Wordpress</span></div>
 					<div class="skillbar-bar" style="background: #6F6FA9;"></div>
 					<div class="skill-bar-percent">50%</div>
-				</div> <!-- End Skill Bar -->
+				</div>
 				
 			</div>
 		</section>
@@ -158,13 +158,13 @@
 	
 							<p class='project-subtitle'>Résumé : </p>
 							Projet en équipe de 5, visant à réaliser un site Internet (en local) à l'image de TripAdvisor. Le site offre la possibilité de 	s'inscrire en tant qu'hôtelier ou en tant qu'abonné.<br>
-							Un hôtelier peut se rattacher à un ou plusieurs hôtels, modérer les avis postés sur ses hôtels ou encore leur ajouter des photos.<	br>
-							Un abonné peut quant à lui poster des avis, consulter le profil et les avis postés d'un autre abonné, ajouter/supprimer des 	hôtels de ses favoris.<br>
-							Le site offre aussi la possibilité de rechercher les hôtels par nom, ville, nombre d'étoiles et services proposés, ainsi que de 	trier les avis des hôtels par note et langue.
+							Un hôtelier peut se rattacher à un ou plusieurs hôtels, modérer les avis postés sur ses hôtels ou encore leur ajouter des photos.<br>
+							Un abonné peut quant à lui poster des avis, consulter le profil et les avis postés d'un autre abonné, ajouter/supprimer des hôtels de ses favoris.<br>
+							Le site offre aussi la possibilité de rechercher les hôtels par nom, ville, nombre d'étoiles et services proposés, ainsi que de trier les avis des hôtels par note et langue.
 						</div>
 						<div class="project-information">
 							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
-							PHP / HTML / CSS / JavaScript / jQuery / AJAX / PostGreSQL
+							PHP / HTML / CSS / jQuery / AJAX / PostGreSQL
 							<p class='project-subtitle'>Infos : </p>
 							Projet réalisé en Octobre 2016
 						</div>
@@ -190,7 +190,7 @@
 						</div>
 						<div class="project-information">
 							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
-							Laravel (Framework PHP) / HTML / CSS / JavaScript / jQuery / AJAX / PostGreSQL
+							Laravel (Framework PHP) / HTML / CSS / jQuery / AJAX / PostGreSQL
 							<p class='project-subtitle'>Infos : </p>
 							Projet en cours de réalisation
 						</div>
@@ -217,7 +217,7 @@
 						</div>
 						<div class="project-information">
 							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
-							Laravel (Framework PHP) / HTML / Materialize (Framework CSS) / JavaScript / jQuery / AJAX / mySQL
+							Laravel (Framework PHP) / HTML / Materialize (Framework CSS) / jQuery / AJAX / mySQL
 							<p class='project-subtitle'>Infos : </p>
 							Projet en cours de réalisation
 						</div>
@@ -244,7 +244,7 @@
 						</div>
 						<div class="project-information">
 							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
-							PHP / HTML / CSS / JavaScript / jQuery / AJAX
+							PHP / HTML / CSS / jQuery / AJAX
 							<p class='project-subtitle'>Infos : </p>
 							Projet réalisé en Février 2017
 						</div>
@@ -304,6 +304,11 @@
 						<p class="network">
 							<a class="network-link" href="http://fr.viadeo.com/fr/profile/loric.ledent" target="_blank">
 								<img class="network-img" src="images/Viadeo_Logo.png">
+							</a>
+						</p>
+						<p class="network">
+							<a class="network-link" href="https://github.com/LedentLoric" target="_blank">
+								<img class="network-img" src="images/GitHub_Logo.png">
 							</a>
 						</p>
 					</div>

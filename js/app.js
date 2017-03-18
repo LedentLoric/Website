@@ -59,12 +59,16 @@ function isValidEmailAddress(emailAddress) {
 
 $(document).ready(function() {
 
-  /* Loading animation */ 
+
+/* Loading animation */ 
+
 
   $("#project-description-content").hide();
   $('#project-description-content').find(".project").hide();
 
-  /* ===== Parallax ===== */
+
+/* ===== Parallax ===== */
+
 
   $('.parallax-window').parallax({imageSrc: 'images/Parallax_img.JPG'});
   
@@ -75,7 +79,9 @@ $(window).on("load", function() {
   $(".loader").css("display", "none");
   $(".main").css("display", "inline");
 
+
 /* ===== Parallax title opacity ===== */
+
 
 	parallaxTitle = $(".parallax-title");
 
@@ -88,7 +94,9 @@ $(window).on("load", function() {
     	parallaxTitle.css({"opacity": opacity})
     });
 
+
 /* ===== Responsive Menu ===== */
+
 
   $("#responsive-icon").on("click", function() {
   	$(".header-content").toggleClass("header-content-new-opacity");
@@ -102,10 +110,10 @@ $(window).on("load", function() {
       }
   });
 
+
 /* ===== Header Waypoint ===== */
 
 	$("#apropos").waypoint(function() {
-    console.log($("#apropos").scrollTop())
         if($(".header-content").css("position") == "fixed")
             $(".header-content").toggleClass("header-content-new-background");
 	}, {offset: "70px"});
@@ -115,7 +123,6 @@ $(window).on("load", function() {
 
 
   $("#competences").waypoint(function() {
-    console.log("competences")
     $('.skillbar').each(function(){
       $(this).find('.skillbar-bar').animate({
         width: $(this).attr('data-percent')
@@ -124,12 +131,8 @@ $(window).on("load", function() {
   }, {offset: '40%'});
 
 
-
-
-
-
-
 /* ===== Projects Waypoint ===== */
+
 
   $("#portfolio").waypoint(function() {
     $(".project-img-content").each(function(index, element) {
@@ -141,6 +144,7 @@ $(window).on("load", function() {
 
 
 /* ===== Image Click ===== */
+
 
   $('.project-img').click(function() {
     if($('#project-description-content').is(":visible")) {
@@ -154,35 +158,34 @@ $(window).on("load", function() {
   });
 
 
-
 /* ===== Contact Waypoint ===== */
 
 
   $("#contact").waypoint(function() {
     $(".label").each(function(index, element) {
         setTimeout(function() {
-            $(element).css("opacity", 1)//.addClass("animated bounceInLeft");
+            $(element).css("opacity", 1)
         }, index*200);
     });
     
     setTimeout(function() {
-        $("#labelArea").css("opacity", 1)//.addClass("animated bounceInLeft");
+        $("#labelArea").css("opacity", 1)
     },800);
     
     setTimeout(function() {
         $(".input").each(function(index, element) {
             setTimeout(function() {
-                $(element).css("opacity", 1)//.addClass("animated bounceInRight");
+                $(element).css("opacity", 1)
             }, index*200);
         });
     }, 100);
     
     setTimeout(function() {
-        $("#area").css("opacity", 1)//.addClass("animated bounceInRight");
+        $("#area").css("opacity", 1)
     },900)
     
     setTimeout(function() {
-        $("#submit").css("opacity", 1)//.addClass("animated bounceInLeft");
+        $("#submit").css("opacity", 1)
     },1000);
     
     setTimeout(function() {
@@ -190,8 +193,6 @@ $(window).on("load", function() {
     },1600);
       
   }, {offset: "50%"});
-
-
 
 
 /* ===== AJAX ===== */
@@ -212,29 +213,36 @@ $(window).on("load", function() {
               }
               else {
                   $("#msgAjax").addClass("valid").html("Votre mail a bien été envoyé");
+                  $("#mail").val("");
+                  $("#name").val("");
+                  $("#fname").val("");
+                  $("#object").val("");
+                  $("#area").val("");
               }
           })
       }
   });
 
 
-  /* ====== Smooth effect ===== */
+/* ====== Smooth effect ===== */
+
+
   $(function() {
       var scrollToAnchor = function( id ) {
-          var elem = $("section[id='"+ id +"']"); // on crÃ©e une balise d'ancrage
-          if ( typeof elem.offset()  === "undefined" ) { // on verifie si l'Ã©lÃ©ment existe
+          var elem = $("section[id='"+ id +"']");
+          if ( typeof elem.offset()  === "undefined" ) { 
               elem = $("#"+id); 
           }
-          if ( typeof elem.offset()  !== "undefined" ) { // si l'Ã©lÃ©ment existe, on continue
+          if ( typeof elem.offset()  !== "undefined" ) { 
               $('html, body').animate({
                   scrollTop: elem.offset().top 
-              }, 800 );} // on dÃ©fini un temps de dÃ©filement de page
+              }, 800 );}
       };
 
-      $("a").click(function( event ) { // on attache la fonction au click
-          if ( $(this).attr("href").match("#") ) { // on vÃ©rifie qu'il s'agit d'une ancre
+      $("a").click(function( event ) {
+          if ( $(this).attr("href").match("#") ) {
               event.preventDefault();
-              var href = $(this).attr('href').replace('#', '') // on scroll vers la cible
+              var href = $(this).attr('href').replace('#', '')
               scrollToAnchor( href ); 
           }
       });
