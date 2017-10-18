@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -18,19 +18,19 @@
 
 	<div class="main">
 
-		<div class="parallax-window" data-parallax="scroll">
-	
+		<div id="parallax" class="parallax-window" data-parallax="scroll">
+
 			<div class="header-content">
 				<div id="responsive-icon">
 					<button class="c-hamburger">
 						<span>toggle menu</span>
 					</button>
 				</div>
-	
+
 				<div class="header-title-content">
-					<h1 class="header-title">Loric Ledent</h1>
+					<h1 class="header-title"><a class="header-title-link" href="#parallax">Loric Ledent</a></h1>
 				</div>
-		
+
 				<div class="base-menu-content">
 					<ul class="base-menu">
 						<li class="base-menu-element"><a href="#apropos" class="base-menu-link">A propos</a></li>
@@ -40,7 +40,7 @@
 					</ul>
 				</div>
 			</div>
-	
+
 			<div class="responsive-menu-content">
 				<ul class="hidden-responsive-menu">
 					<li class="responsive-menu-element"><a href="#apropos" class="responsive-menu-link">A propos</a></li>
@@ -49,18 +49,28 @@
 					<li class="responsive-menu-element"><a href="#contact" class="responsive-menu-link">Contact</a></li>
 				</ul>
 			</div>
-	
-	
-			<div class="parallax-title-content">
-				<h1 class="parallax-title">Web developer</h1>
+
+
+			<div class="parallax-title-container">
+				<div class="parallax-title-content">
+					<h1 class="parallax-title">Web Developer</h1>
+					<div class="parallax-btn-container">
+						<div class="btn-container btn-container-for-parralax">
+							<div class="btn-content">
+								<a href="#apropos" class="btn parallax-btn">Me découvrir</a>
+							</div>
+							<div class="underline parralax-underline"></div>
+						</div>
+					</div>
+				</div>
 			</div>
-	
+
 		</div>
-	
-	
+
+
 		<section id="apropos">
 			<div class="section-content">
-				<h1 class="title">A propos</h1>
+				<h1 class="title">A PROPOS</h1>
 				<div class="main-information-content">
 				<div class="Loric-img-content">
 						<img class="Loric-img" src="images/photo_Loric.jpg">
@@ -73,41 +83,41 @@
 							</button>
 						</div>
 					</div>
-		
-					
+
+
 				</div>
 			</div>
 		</section>
-	
+
 		<section id="competences">
 			<div class="section-content">
-				<h1 class="title">Compétences</h1>
+				<h1 class="title">COMPETENCES</h1>
 				<div class="skillbar clearfix " data-percent="90%">
 					<div class="skillbar-title" style="background: #DD7E03;"><span>PHP</span></div>
 					<div class="skillbar-subtitle"><span>Laravel</span></div>
 					<div class="skillbar-bar" style="background: #DD7E03;"></div>
 					<div class="skill-bar-percent">90%</div>
 				</div>
-				
+
 				<div class="skillbar clearfix " data-percent="85%">
 					<div class="skillbar-title" style="background: #FFCC15;"><span>JS / jQuery</span></div>
 					<div class="skillbar-bar" style="background: #FFCC15;"></div>
 					<div class="skill-bar-percent">85%</div>
 				</div>
-				
+
 				<div class="skillbar clearfix " data-percent="85%">
 					<div class="skillbar-title" style="background: #0EDD4F;"><span>HTML / CSS</span></div>
 					<div class="skillbar-subtitle"><span>Materialize</span></div>
 					<div class="skillbar-bar" style="background: #0EDD4F;"></div>
 					<div class="skill-bar-percent">85%</div>
 				</div>
-				
+
 				<div class="skillbar clearfix " data-percent="80%">
 					<div class="skillbar-title" style="background: #1A9072;"><span>SQL</span></div>
 					<div class="skillbar-bar" style="background: #1A9072;"></div>
 					<div class="skill-bar-percent">80%</div>
 				</div>
-				
+
 				<div class="skillbar clearfix " data-percent="70%">
 					<div class="skillbar-title" style="background: #5D5DAA;"><span>c#</span></div>
 					<div class="skillbar-bar" style="background: #5D5DAA;"></div>
@@ -119,20 +129,20 @@
 					<div class="skillbar-bar" style="background: #8787F6;"></div>
 					<div class="skill-bar-percent">60%</div>
 				</div>
-				
+
 				<div class="skillbar clearfix " data-percent="50%">
 					<div class="skillbar-title" style="background: #6F6FA9;"><span>Wordpress</span></div>
 					<div class="skillbar-bar" style="background: #6F6FA9;"></div>
 					<div class="skill-bar-percent">50%</div>
 				</div>
-				
+
 			</div>
 		</section>
-	
-	
+
+
 		<section id="portfolio">
 			<div class="section-content">
-				<h1 class="title">Portfolio</h1>
+				<h1 class="title">PORTFOLIO</h1>
 				<div class="projects-content">
 					<div class="project-img-content">
 						<img class="project-img" src="images/TripAdvisor_Logo.png">
@@ -147,15 +157,15 @@
 						<img class="project-img" src="images/SitePerso_Logo.PNG">
 					</div>
 				</div>
-	
+
 				<div id="project-description-content">
-	
+
 					<div class="project" id="TripAdvisor">
-	
+
 						<h2 class='project-title'>Projet TripAdvisor</h2>
-	
+
 						<div class="project-description">
-	
+
 							<p class='project-subtitle'>Résumé : </p>
 							Projet en équipe de 5, visant à réaliser un site Internet (en local) à l'image de TripAdvisor. Le site offre la possibilité de 	s'inscrire en tant qu'hôtelier ou en tant qu'abonné.<br>
 							Un hôtelier peut se rattacher à un ou plusieurs hôtels, modérer les avis postés sur ses hôtels ou encore leur ajouter des photos.<br>
@@ -168,23 +178,23 @@
 							<p class='project-subtitle'>Infos : </p>
 							Projet réalisé en Octobre 2016
 						</div>
-					
+
 						<a class='project-screenshot-link' href='images/CaptureTA2.PNG' data-lightbox='CaptureTA2' data-title='ScreenShot TripAdvisor'>
 							<img class='project-screenshot' src='images/CaptureTA2.PNG'>
 						</a>
-	
+
 						<a class='project-screenshot-link' href='images/CaptureTA.PNG' data-lightbox='CaptureTA' data-title='ScreenShot TripAdvisor'>
 							<img class='project-screenshot' src='images/CaptureTA.PNG'>
 						</a>
-	
+
 					</div>
-	
+
 					<div class="project" id="FermiersdeFrance">
-	
+
 						<h2 class='project-title'>Projet Fermiers de France</h2>
-	
+
 						<div class="project-description">
-	
+
 							<p class='project-subtitle'>Résumé : </p>
 							Projet tutoré de 2ème année consistant à réaliser une plateforme e-commerce de vente de viandes. Elle permettra à des 	particuliers d'acheter de la viande directement à des producteurs locaux ou de passer une commande qui sera prise en charge par 	un producteur.<br>Le projet arrive à son terme, il sera livré au demandeur dans le mois d'avril.<br>
 						</div>
@@ -194,24 +204,24 @@
 							<p class='project-subtitle'>Infos : </p>
 							Projet en cours de réalisation
 						</div>
-					
+
 						<a class='project-screenshot-link' href='images/CaptureFdF.PNG' data-lightbox='CaptureFdF' data-title='ScreenShot Fermiers de France'>
 							<img class='project-screenshot' src='images/CaptureFdF.PNG'>
 						</a>
-	
+
 						<a class='project-screenshot-link' href='images/CaptureFdF2.PNG' data-lightbox='CaptureFdF2' data-title='ScreenShot Fermiers de France	'>
 							<img class='project-screenshot' src='images/CaptureFdF2.PNG'>
 						</a>
-	
+
 					</div>
-	
-	
+
+
 					<div class="project" id="PokeQuiz">
-	
+
 						<h2 class='project-title'>Projet PokéQuiz</h2>
-	
+
 						<div class="project-description">
-	
+
 							<p class='project-subtitle'>Résumé : </p>
 							Projet personel consistant à réaliser un site communautaire proposant des quiz basés sur l'univers de Pokémon. Le site permet 	d'effectuer, de noter et de partager des quiz. Le site offre aussi la possibilité de proposer des quiz, qui suite à une 	validation, pourront s'ajouter aux quiz disponibles.<br>
 						</div>
@@ -221,24 +231,24 @@
 							<p class='project-subtitle'>Infos : </p>
 							Projet en cours de réalisation
 						</div>
-					
+
 						<a class='project-screenshot-link' href='images/CapturePK.PNG' data-lightbox='CapturePK' data-title='ScreenShot PokéQuiz'>
 							<img class='project-screenshot' src='images/CapturePK.PNG'>
 						</a>
-	
+
 						<a class='project-screenshot-link' href='images/CapturePK2.PNG' data-lightbox='CapturePK2' data-title='ScreenShot PokéQuiz'>
 							<img class='project-screenshot' src='images/CapturePK2.PNG'>
 						</a>
-	
+
 					</div>
-	
-	
+
+
 					<div class="project" id="SitePerso">
-	
+
 						<h2 class='project-title'>Site Personnel</h2>
-	
+
 						<div class="project-description">
-	
+
 							<p class='project-subtitle'>Résumé : </p>
 							Projet personnel consistant à réaliser ce site Internet (totalement Responsive) me présentant.<br>
 						</div>
@@ -248,53 +258,53 @@
 							<p class='project-subtitle'>Infos : </p>
 							Projet réalisé en Février 2017
 						</div>
-	
+
 					</div>
-			
+
 				</div>
 			</div>
 		</section>
-	
-	
+
+
 		<section id="contact">
 			<div class="section-content">
-				<h1 class="title">Contact</h1>
+				<h1 class="title">CONTACT</h1>
 				<div id="form-content">
 					<form id="form" method="post" action="sendMail.php">
-	
+
 						<p class="form-input">
 							<label class="label" for="email">Votre mail : </label>
 							<input class="input" name="mail" type="email" id="mail" required>
 						</p>
-	
+
 						<p class="form-input">
 							<label class="label" for="name">Nom :</label>
 							<input class="input" type="text" id="name" name="name" required size="40">
 						</p>
-	
+
 						<p class="form-input">
 							<label class="label" for="fname">Prénom :</label>
 							<input class="input" type="text" id="fname" name="fname" required size="40">
 						</p>
-	
+
 						<p class="form-input">
 							<label class="label" for="object">Objet : </label>
 							<input class="input" name="object" type="text" id="object" required>
 						</p>
-	
+
 						<p class="form-input">
 							<label id="labelArea">Contenu de votre mail : </label>
 							<textarea id="area" name="message" required rows="12"></textarea>
 						</p>
-	
+
 						<p id="msgAjax"></p>
-	
+
 						<p>
 							<input type="submit" id="submit" class="button button-link" value="Envoyer">
 						</p>
-	
+
 					</form>
-	
+
 					<div id="networks-content">
 						<p class="network">
 							<a class="network-link" href="https://fr.linkedin.com/in/loric-ledent" target="_blank">
@@ -315,19 +325,19 @@
 				</div>
 			</div>
 		</section>
-	
-	
-	
-	
+
+
+
+
 		<footer>
 			Site réalisé en 2017 par Loric LEDENT
 		</footer>
-	
+
 		<script src="js/jquery-3.1.0.min.js"></script>
 		<script src="js/jquery.waypoints.min.js"></script>
 		<script src="js/lightbox.js"></script>
 		<script src="js/parallax.min.js"></script>
 		<script src="js/app.js"></script>
-	</div>	
+	</div>
 </body>
 </html>
