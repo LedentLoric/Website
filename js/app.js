@@ -116,15 +116,25 @@ $(window).on("load", function() {
 
   /* ===== Parallax title opacity ===== */
 	parallaxTitle = $(".parallax-title");
+  btnContainer  = $("#parallax-btn-container");
 
 	$(window).on('scroll', function () {
     	var scrollTop = $(this).scrollTop();
-    	var offset = parallaxTitle.offset().top;
-    	var opacity = 1 - scrollTop/offset;
-    	if(opacity < 0)
-    		opacity = 0;
-    	parallaxTitle.css({"opacity": opacity});
-      $(".parallax-btn-container").css({"opacity": opacity});
+      // For parallax
+    	var parallaxTitleOffset  = parallaxTitle.offset().top;
+    	var parallaxTitleOpacity = 1 - scrollTop/parallaxTitleOffset;
+      // For btn
+      var btnContainerOffset  = btnContainer.offset().top;
+      var btnContainerOpacity = 1 - scrollTop/btnContainerOffset;
+
+    	if(parallaxTitleOpacity < 0)
+    		parallaxTitleOpacity = 0;
+
+      if(btnContainerOpacity < 0)
+        btnContainerOpacity = 0;
+
+    	parallaxTitle.css({"opacity": parallaxTitleOpacity});
+      btnContainer.css({"opacity": btnContainerOpacity});
     });
 
 

@@ -44,7 +44,7 @@
 			<div class="responsive-menu-content">
 				<ul class="hidden-responsive-menu">
 					<li class="responsive-menu-element"><a href="#apropos" class="responsive-menu-link">A propos</a></li>
-					<li class="responsive-menu-element"><a href="#competences" class="responsive-menu-link">Compétences</a></li
+					<li class="responsive-menu-element"><a href="#competences" class="responsive-menu-link">Compétences</a></li>
 					<li class="responsive-menu-element"><a href="#portfolio" class="responsive-menu-link">Portfolio</a></li>
 					<li class="responsive-menu-element"><a href="#contact" class="responsive-menu-link">Contact</a></li>
 				</ul>
@@ -54,7 +54,7 @@
 			<div class="parallax-title-container">
 				<div class="parallax-title-content">
 					<h1 class="parallax-title">Web Developer</h1>
-					<div class="parallax-btn-container">
+					<div id="parallax-btn-container" class="center-btn-container">
 						<div class="btn-container btn-container-for-parralax">
 							<div class="btn-content">
 								<a href="#apropos" class="btn parallax-btn">Me découvrir</a>
@@ -72,16 +72,25 @@
 			<div class="section-content">
 				<h1 class="title">A PROPOS</h1>
 				<div class="main-information-content">
-				<div class="Loric-img-content">
+					<div class="Loric-img-content">
 						<img class="Loric-img" src="images/photo_Loric.jpg">
 					</div>
 					<div class="information-content">
-						<p>Je m'appelle Loric, j'ai 19 ans et je suis étudiant en DUT Informatique à l'IUT d'Annecy !<br>Passionné par le développement Web, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez aussi la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
-						<div class="button-content">
+						<p class="information-txt">Je m'appelle Loric, j'ai 19 ans et je suis étudiant en Lincence Professionnelle DIM (Développeur Informatique Multisupports).<br>Passionné par le développement Web, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
+						<div class="information-triangle"></div>
+						<div class="center-btn-container information-center-btn-container">
+							<div class="btn-container information-btn-container">
+								<div class="btn-content">
+									<a href="files/CV_LoricLedent.pdf" download="CV_LoricLedent.pdf" class="btn">Télécharger mon CV</a>
+								</div>
+								<div class="underline"></div>
+							</div>
+						</div>
+						<!-- <div class="button-content">
 							<button class="button">
 								<a class="button-link" href="files/CV_LoricLedent.pdf" download="CV_LoricLedent.pdf">Télécharger mon CV</a>
 							</button>
-						</div>
+						</div> -->
 					</div>
 
 
