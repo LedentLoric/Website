@@ -227,7 +227,7 @@ a, a:visited {text-decoration: none;}
 	position: relative;
 	height: 46px;
 	border: 2px solid #53636E;
-	z-index: 999;
+	z-index: 500;
 }
 
 .btn-content {
@@ -254,14 +254,6 @@ a, a:visited {text-decoration: none;}
 	background-color: #53636E;
 	z-index: -1;
 	transition: height 0.15s ease-out;
-}
-
-.btn-hover-effect {
-	color: white;
-}
-
-.underline-hover-effect {
-	height: 100%;
 }
 
 
@@ -436,6 +428,17 @@ a, a:visited {text-decoration: none;}
 	.responsive-menu {
 		transform: translateX(0px);
 	}
+
+	.parallax-title {
+		font-size: 4rem;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.parallax-title {
+		font-size: 3rem;
+		line-height: 55px;
+	}
 }
 
 
@@ -451,16 +454,22 @@ a, a:visited {text-decoration: none;}
 }
 
 .Loric-img-content {
-	/*margin-left: 11%;*/
-	width: 30%;
+	width: 40%;
 }
 
 .Loric-img {
+	display: block;
+	width: 75%;
 	border-radius: 50%;
+	margin: auto;
+}
+
+.information-container {
+	width: 40%;
 }
 
 .information-content {
-	width: 45%;
+	margin: auto;
 	background-color: #ECEFF1;
 	border-radius: 5px;
 	border: 1px solid #ECEFF1;
@@ -486,7 +495,7 @@ a, a:visited {text-decoration: none;}
 	margin: auto;
 	border-style: solid;
 	border-width: 30px 30px 30px 0;
-	border-color: transparent #eceff1 transparent transparent;
+	border-color: transparent #ECEFF1 transparent transparent;
 }
 
 .information-center-btn-container {
@@ -496,8 +505,18 @@ a, a:visited {text-decoration: none;}
 
 .information-btn-container {
 	background-color: white;
+	border: 2px solid #7A848A;
 }
 
+.information-btn {
+	color: #7A848A;
+}
+
+.information-underline {
+	background-color: #7A848A;
+}
+
+/* Old btns */
 .button-content {text-align: center;}
 
 .button {
@@ -863,4 +882,20 @@ footer {
 	background-color: #455a64;
 	text-align: center;
 	padding: 15px 0;
+}
+
+
+
+/* ================= */
+/* ===== OTHER ===== */
+/* ================= */
+
+/* ===== Btn hover effects ===== */
+
+.btn-hover-effect {
+	color: white;
+}
+
+.underline-hover-effect {
+	height: 100%;
 }

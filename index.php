@@ -70,37 +70,32 @@
 
 		<section id="apropos">
 			<div class="section-content">
-				<h1 class="title">A PROPOS</h1>
+				<h2 class="title">A PROPOS</h2>
 				<div class="main-information-content">
 					<div class="Loric-img-content">
 						<img class="Loric-img" src="images/photo_Loric.jpg">
 					</div>
-					<div class="information-content">
-						<p class="information-txt">Je m'appelle Loric, j'ai 19 ans et je suis étudiant en Lincence Professionnelle DIM (Développeur Informatique Multisupports).<br>Passionné par le développement Web, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
-						<div class="information-triangle"></div>
-						<div class="center-btn-container information-center-btn-container">
-							<div class="btn-container information-btn-container">
-								<div class="btn-content">
-									<a href="files/CV_LoricLedent.pdf" download="CV_LoricLedent.pdf" class="btn">Télécharger mon CV</a>
+					<div class="information-container">
+						<div class="information-content">
+							<p class="information-txt">Je m'appelle Loric, j'ai 19 ans et je suis étudiant en Lincence Professionnelle DIM (Développeur Informatique Multisupports).<br>Passionné par le développement Web, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
+							<div class="information-triangle"></div>
+							<div class="center-btn-container information-center-btn-container">
+								<div class="btn-container information-btn-container">
+									<div class="btn-content">
+										<a href="files/CV_LoricLedent.pdf" download="CV_LoricLedent.pdf" class="btn information-btn">Télécharger mon CV</a>
+									</div>
+									<div class="underline information-underline"></div>
 								</div>
-								<div class="underline"></div>
 							</div>
 						</div>
-						<!-- <div class="button-content">
-							<button class="button">
-								<a class="button-link" href="files/CV_LoricLedent.pdf" download="CV_LoricLedent.pdf">Télécharger mon CV</a>
-							</button>
-						</div> -->
 					</div>
-
-
 				</div>
 			</div>
 		</section>
 
 		<section id="competences">
 			<div class="section-content">
-				<h1 class="title">COMPETENCES</h1>
+				<h2 class="title">COMPETENCES</h2>
 				<div class="skillbar clearfix " data-percent="90%">
 					<div class="skillbar-title" style="background: #DD7E03;"><span>PHP</span></div>
 					<div class="skillbar-subtitle"><span>Laravel</span></div>
@@ -109,15 +104,16 @@
 				</div>
 
 				<div class="skillbar clearfix " data-percent="85%">
-					<div class="skillbar-title" style="background: #FFCC15;"><span>JS / jQuery</span></div>
-					<div class="skillbar-bar" style="background: #FFCC15;"></div>
+					<div class="skillbar-title" style="background: #FFC107;"><span>JS</span></div>
+					<div class="skillbar-subtitle"><span>AngularJS</span></div>
+					<div class="skillbar-bar" style="background: #FFC107;"></div>
 					<div class="skill-bar-percent">85%</div>
 				</div>
 
 				<div class="skillbar clearfix " data-percent="85%">
-					<div class="skillbar-title" style="background: #0EDD4F;"><span>HTML / CSS</span></div>
+					<div class="skillbar-title" style="background: #43A047;"><span>HTML/CSS</span></div>
 					<div class="skillbar-subtitle"><span>Materialize</span></div>
-					<div class="skillbar-bar" style="background: #0EDD4F;"></div>
+					<div class="skillbar-bar" style="background: #43A047;"></div>
 					<div class="skill-bar-percent">85%</div>
 				</div>
 
@@ -128,30 +124,30 @@
 				</div>
 
 				<div class="skillbar clearfix " data-percent="70%">
-					<div class="skillbar-title" style="background: #5D5DAA;"><span>c#</span></div>
+					<div class="skillbar-title" style="background: #5D5DAA;"><span>C#</span></div>
 					<div class="skillbar-bar" style="background: #5D5DAA;"></div>
 					<div class="skill-bar-percent">70%</div>
 				</div>
 
-				<div class="skillbar clearfix " data-percent="60%">
-					<div class="skillbar-title" style="background: #8787F6;"><span>Android</span></div>
+
+				<div class="skillbar clearfix " data-percent="65%">
+					<div class="skillbar-title" style="background: #8787F6;"><span>GIT</span></div>
 					<div class="skillbar-bar" style="background: #8787F6;"></div>
+					<div class="skill-bar-percent">65%</div>
+				</div>
+
+				<div class="skillbar clearfix " data-percent="60%">
+					<div class="skillbar-title" style="background: #6F6FA9;"><span>Android</span></div>
+					<div class="skillbar-bar" style="background: #6F6FA9;"></div>
 					<div class="skill-bar-percent">60%</div>
 				</div>
-
-				<div class="skillbar clearfix " data-percent="50%">
-					<div class="skillbar-title" style="background: #6F6FA9;"><span>Wordpress</span></div>
-					<div class="skillbar-bar" style="background: #6F6FA9;"></div>
-					<div class="skill-bar-percent">50%</div>
-				</div>
-
 			</div>
 		</section>
 
 
 		<section id="portfolio">
 			<div class="section-content">
-				<h1 class="title">PORTFOLIO</h1>
+				<h2 class="title">PORTFOLIO</h2>
 				<div class="projects-content">
 					<div class="project-img-content">
 						<img class="project-img" src="images/TripAdvisor_Logo.png">
@@ -277,7 +273,7 @@
 
 		<section id="contact">
 			<div class="section-content">
-				<h1 class="title">CONTACT</h1>
+				<h2 class="title">CONTACT</h2>
 				<div id="form-content">
 					<form id="form" method="post" action="sendMail.php">
 
