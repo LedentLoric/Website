@@ -77,14 +77,14 @@
 					</div>
 					<div class="information-container">
 						<div class="information-content">
-							<p class="information-txt">Je m'appelle Loric, j'ai 19 ans et je suis étudiant en Lincence Professionnelle DIM (Développeur Informatique Multisupports).<br>Passionné par le développement Web, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
+							<p class="information-txt">Je m'appelle <strong>Loric</strong>, j'ai 20 ans et je suis étudiant en <strong>Lincence Professionnelle DIM</strong> (Développeur Informatique Multisupports).<br><br>Passionné par le <strong>développement Web</strong>, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
 							<div class="information-triangle"></div>
 							<div class="center-btn-container information-center-btn-container">
 								<div class="btn-container information-btn-container">
 									<div class="btn-content">
-										<a href="files/CV_LoricLedent.pdf" download="CV_LoricLedent.pdf" class="btn information-btn">Télécharger mon CV</a>
+										<a href="files/CV_LoricLedent.pdf" download="CV_LoricLedent.pdf" class="btn">Télécharger mon CV</a>
 									</div>
-									<div class="underline information-underline"></div>
+									<div class="underline"></div>
 								</div>
 							</div>
 						</div>
