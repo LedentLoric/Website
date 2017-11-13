@@ -480,7 +480,7 @@ a, a:visited {text-decoration: none;}
 }
 
 .Loric-img-content {
-	width: 40%;
+	width: 45%;
 }
 
 .Loric-img {
@@ -533,14 +533,6 @@ a, a:visited {text-decoration: none;}
 	background-color: white;
 	/*border: 2px solid #53636E;*/
 }
-
-/*.information-btn {
-	color: #53636E;
-}
-
-.information-underline {
-	background-color: #53636E;/*7A848A
-}*/
 
 /* Old btns */
 .button-content {text-align: center;}
@@ -849,22 +841,20 @@ a, a:visited {text-decoration: none;}
 
 #contact {background-color: #FCFCFC;}
 
-#form-content {
-	display: flex;
-	align-items: center;
+#form {
+	width: 100%;
+	margin: auto;
 }
-
-.form-input {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-form {width: 70%;}
 
 #networks-content {
 	width: 30%;
 	opacity: 0;
 	transition: opacity 0.6s;
+}
+
+.form-input {
+	display: flex;
+	justify-content: center;
 }
 
 .label {
@@ -877,8 +867,13 @@ form {width: 70%;}
 }
 
 .input {
-	margin: 0;
-	width: 70%;
+	font-family: 'Roboto';
+	font-size: 16px;
+	text-align: center;
+	width: 55%;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 15px;
 	opacity: 0;
 	transition: opacity 0.6s;
 }
@@ -891,13 +886,21 @@ form {width: 70%;}
 }
 
 textarea {
+	font-family: 'Roboto';
+	font-size: 16px;
+	width: 55%;
+	text-align: center;
 	resize: none;
-	width: 100%;
+	padding: 10px 15px;
 }
 
 #area {
 	opacity: 0;
 	transition: opacity 0.6s;
+}
+
+.contact-btn-container {
+	margin-top: 40px;
 }
 
 #networks-content {text-align: center;}

@@ -71,6 +71,36 @@ function applyHoverEffect(hoverElement) {
   }
 }
 
+
+// Submit form
+function submitForm() {
+  $("form").on("submit", function(e) {
+      e.preventDefault();
+      var form = $("form");
+      if(($("#mail").val() != "") && isValidEmailAddress($("#mail").val()) && ($("#name").val() != "") && ($("#fname").val() != "") && ($("#object").val() != "") && ($("#area").val() != "")) {
+          $.ajax({
+              url: form.attr("action"),
+              type: form.attr("method"),
+              data: form.serialize()
+          })
+          .done(function(data){
+              if(data == "error") {
+                  $("#msgAjax").addClass("error").html("Votre mail n'a pas pu être envoyé");
+              }
+              else {
+                  $("#msgAjax").addClass("valid").html("Votre mail a bien été envoyé");
+                  $("#mail").val("");
+                  $("#name").val("");
+                  $("#fname").val("");
+                  $("#object").val("");
+                  $("#area").val("");
+              }
+          })
+      }
+  });
+}
+
+
 function removeHoverEffect(hoverElement) {
   var underlineDiv = hoverElement.find(".underline");
   var btn = hoverElement.find(".btn");
@@ -224,34 +254,7 @@ $(window).on("load", function() {
         $("#networks-content").css("opacity", 1);
     },1600);
 
-  }, {offset: "50%"});
-
-
-  /* ===== AJAX ===== */
-  $("form").on("submit", function(e) {
-      e.preventDefault();
-      var form = $("form");
-      if(($("#mail").val() != "") && isValidEmailAddress($("#mail").val()) && ($("#name").val() != "") && ($("#fname").val() != "") && ($("#object").val() != "") && ($("#area").val() != "")) {
-          $.ajax({
-              url: form.attr("action"),
-              type: form.attr("method"),
-              data: form.serialize()
-          })
-          .done(function(data){
-              if(data == "error") {
-                  $("#msgAjax").addClass("error").html("Votre mail n'a pas pu être envoyé");
-              }
-              else {
-                  $("#msgAjax").addClass("valid").html("Votre mail a bien été envoyé");
-                  $("#mail").val("");
-                  $("#name").val("");
-                  $("#fname").val("");
-                  $("#object").val("");
-                  $("#area").val("");
-              }
-          })
-      }
-  });
+  }, {offset: "50%"});  
 
 
   /* ====== Smooth effect ===== */

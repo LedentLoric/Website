@@ -172,7 +172,7 @@
 						<div class="project-description">
 
 							<p class='project-subtitle'>Résumé : </p>
-							Projet en équipe de 5, visant à réaliser un site Internet (en local) à l'image de TripAdvisor. Le site offre la possibilité de 	s'inscrire en tant qu'hôtelier ou en tant qu'abonné.<br>
+							Projet en équipe de 5, visant à réaliser un site Internet (en local) à l'image de TripAdvisor. Le site offre la possibilité de s'inscrire en tant qu'hôtelier ou en tant qu'abonné.<br>
 							Un hôtelier peut se rattacher à un ou plusieurs hôtels, modérer les avis postés sur ses hôtels ou encore leur ajouter des photos.<br>
 							Un abonné peut quant à lui poster des avis, consulter le profil et les avis postés d'un autre abonné, ajouter/supprimer des hôtels de ses favoris.<br>
 							Le site offre aussi la possibilité de rechercher les hôtels par nom, ville, nombre d'étoiles et services proposés, ainsi que de trier les avis des hôtels par note et langue.
@@ -201,7 +201,7 @@
 						<div class="project-description">
 
 							<p class='project-subtitle'>Résumé : </p>
-							Projet tutoré de 2ème année consistant à réaliser une plateforme e-commerce de vente de viandes. Elle permettra à des 	particuliers d'acheter de la viande directement à des producteurs locaux ou de passer une commande qui sera prise en charge par 	un producteur.<br>Le projet arrive à son terme, il sera livré au demandeur dans le mois d'avril.<br>
+							Projet tutoré de 2ème année consistant à réaliser une plateforme e-commerce de vente de viandes. Elle permettra à des particuliers d'acheter de la viande directement à des producteurs locaux ou de passer une commande qui sera prise en charge par un producteur.<br>Le projet arrive à son terme, il sera livré au demandeur dans le mois d'avril.<br>
 						</div>
 						<div class="project-information">
 							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
@@ -228,7 +228,7 @@
 						<div class="project-description">
 
 							<p class='project-subtitle'>Résumé : </p>
-							Projet personel consistant à réaliser un site communautaire proposant des quiz basés sur l'univers de Pokémon. Le site permet 	d'effectuer, de noter et de partager des quiz. Le site offre aussi la possibilité de proposer des quiz, qui suite à une 	validation, pourront s'ajouter aux quiz disponibles.<br>
+							Projet personel consistant à réaliser un site communautaire proposant des quiz basés sur l'univers de Pokémon. Le site permet d'effectuer, de noter et de partager des quiz. Le site offre aussi la possibilité de proposer des quiz, qui suite à une validation, pourront s'ajouter aux quiz disponibles.<br>
 						</div>
 						<div class="project-information">
 							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
@@ -274,43 +274,40 @@
 		<section id="contact">
 			<div class="section-content">
 				<h2 class="title">CONTACT</h2>
-				<div id="form-content">
-					<form id="form" method="post" action="sendMail.php">
+				<form id="form" method="post" action="sendMail.php">
 
-						<p class="form-input">
-							<label class="label" for="email">Votre mail : </label>
-							<input class="input" name="mail" type="email" id="mail" required>
-						</p>
+					<p class="form-input">
+						<input class="input" name="mail" type="email" id="mail" placeholder="Mail" required>
+					</p>
+					<p class="form-input">
+						<input class="input" type="text" id="name" name="name" placeholder="Nom" required size="40">
+					</p>
+					<p class="form-input">
+						<input class="input" type="text" id="fname" name="fname" placeholder="Prénom" required size="40">
+					</p>
+					<p class="form-input">
+						<input class="input" name="object" type="text" id="object" placeholder="Objet" required>
+					</p>
+					<p class="form-input">
+						<textarea id="area" name="message" rows="7" placeholder="Votre message..." required></textarea>
+					</p>
+					<p id="msgAjax"></p>
 
-						<p class="form-input">
-							<label class="label" for="name">Nom :</label>
-							<input class="input" type="text" id="name" name="name" required size="40">
-						</p>
+					<!-- <p>
+						<input type="submit" id="submit" class="button button-link" value="Envoyer">
+					</p> -->
+					<div class="center-btn-container contact-btn-container">
+						<div class="btn-container">
+							<div class="btn-content">
+								<a href="javascript: submitForm()" class="btn submit">Envoyer</a>
+							</div>
+							<div class="underline"></div>
+						</div>
+					</div>
 
-						<p class="form-input">
-							<label class="label" for="fname">Prénom :</label>
-							<input class="input" type="text" id="fname" name="fname" required size="40">
-						</p>
+				</form>
 
-						<p class="form-input">
-							<label class="label" for="object">Objet : </label>
-							<input class="input" name="object" type="text" id="object" required>
-						</p>
-
-						<p class="form-input">
-							<label id="labelArea">Contenu de votre mail : </label>
-							<textarea id="area" name="message" required rows="12"></textarea>
-						</p>
-
-						<p id="msgAjax"></p>
-
-						<p>
-							<input type="submit" id="submit" class="button button-link" value="Envoyer">
-						</p>
-
-					</form>
-
-					<div id="networks-content">
+					<!-- <div id="networks-content">
 						<p class="network">
 							<a class="network-link" href="https://fr.linkedin.com/in/loric-ledent" target="_blank">
 								<img class="network-img" src="images/LinkedIn_Logo.png">
@@ -326,8 +323,8 @@
 								<img class="network-img" src="images/GitHub_Logo.png">
 							</a>
 						</p>
-					</div>
-				</div>
+					</div> -->
+				<!-- </div> -->
 			</div>
 		</section>
 
