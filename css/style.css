@@ -126,7 +126,7 @@ body {
 }
 
 .section-content {
-	width: 80%;
+	width: 75%;
 	margin: auto;
 	padding-bottom: 50px;
 }
@@ -473,13 +473,17 @@ a, a:visited {text-decoration: none;}
 /* ===== Page 2 ===== */
 /* ================== */
 
-.main-information-content {
+/*.main-information-content {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}*/
+
+.main-information-content {
+	position: relative;
 }
 
-.Loric-img-content {
+/*.Loric-img-content {
 	width: 45%;
 }
 
@@ -488,19 +492,40 @@ a, a:visited {text-decoration: none;}
 	width: 75%;
 	border-radius: 50%;
 	margin: auto;
+}*/
+
+.presentation-img-content {
+	width: 45%;
+	margin-top: 25px;
+}
+
+.presentation-img {
+	max-width: 100%;
+	border-radius: 10px;
 }
 
 .information-container {
-	width: 40%;
+	width: 60%;
+	position: absolute;
+	top: -25px;
+	left: 40%;
+	background-color: #FAFAFA;
+	border: solid 1px #EEEEEE;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+	border-radius: 10px;
 }
 
 .information-content {
+	margin: auto;
+}
+
+/*.information-content {
 	margin: auto;
 	background-color: #ECEFF1;
 	border-radius: 5px;
 	border: 1px solid #ECEFF1;
 	position: relative;
-}
+}*/
 
 .information-txt {
 	margin: 35px;
@@ -521,7 +546,7 @@ a, a:visited {text-decoration: none;}
 	margin: auto;
 	border-style: solid;
 	border-width: 30px 30px 30px 0;
-	border-color: transparent #ECEFF1 transparent transparent;
+	border-color: transparent white transparent transparent;
 }
 
 .information-center-btn-container {
@@ -531,7 +556,41 @@ a, a:visited {text-decoration: none;}
 
 .information-btn-container {
 	background-color: white;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 	/*border: 2px solid #53636E;*/
+}
+
+.networks-container {
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+	width: 45%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 5%;
+}
+
+.network {
+	display: flex;
+	align-items: center;
+}
+
+.network-link {
+	font-size: 18px;
+	color: black;
+	margin-left: 10px; 
+	text-decoration: none;
+}
+
+.network-link:visited {
+	text-decoration: none;
+}
+
+.network-img {
+	width: 30px;
+	height: 30px;
 }
 
 /* Old btns */
@@ -556,7 +615,7 @@ a, a:visited {text-decoration: none;}
 	.main-information-content {display: block;}
 
 	.Loric-img-content {
-		width: 75%;
+		width: 70%;
 		margin: auto;
 	}
 
@@ -590,7 +649,7 @@ a, a:visited {text-decoration: none;}
 	.main-information-content {display: block;}
 
 	.Loric-img-content {
-		width: 75%;
+		width: 90%;
 		margin: auto;
 	}
 
@@ -841,9 +900,13 @@ a, a:visited {text-decoration: none;}
 
 #contact {background-color: #FCFCFC;}
 
+.contact-container {
+	width: 60%;
+	margin: auto;
+}
+
 #form {
 	width: 100%;
-	margin: auto;
 }
 
 #networks-content {
@@ -853,8 +916,7 @@ a, a:visited {text-decoration: none;}
 }
 
 .form-input {
-	display: flex;
-	justify-content: center;
+	margin: 10px 0;
 }
 
 .label {
@@ -869,11 +931,8 @@ a, a:visited {text-decoration: none;}
 .input {
 	font-family: 'Roboto';
 	font-size: 16px;
-	text-align: center;
-	width: 55%;
-	height: 34px;
-	line-height: 34px;
-	padding: 0 15px;
+	width: calc(100% - 44px);
+	padding: 10px 20px;
 	opacity: 0;
 	transition: opacity 0.6s;
 }
@@ -888,10 +947,9 @@ a, a:visited {text-decoration: none;}
 textarea {
 	font-family: 'Roboto';
 	font-size: 16px;
-	width: 55%;
-	text-align: center;
+	width: calc(100% - 44px);
 	resize: none;
-	padding: 10px 15px;
+	padding: 10px 20px;
 }
 
 #area {
@@ -899,25 +957,13 @@ textarea {
 	transition: opacity 0.6s;
 }
 
-.contact-btn-container {
+.contact-center-btn-container {
 	margin-top: 40px;
+	justify-content: flex-end;
 }
 
-#networks-content {text-align: center;}
-
-.network-link {
-	margin-left: 2%;
-	text-decoration: none;
-	color: #234149;
-}
-
-.network-link:visited {
-	text-decoration: none;
-}
-
-.network-img {
-	width: 20%;
-	height: 20%;
+.contact-btn-container {
+	margin: 0;
 }
 
 #submit {
@@ -950,23 +996,6 @@ textarea {
 	.label {width: 100%;}
 
 	.input {width: 100%;}
-
-	#networks-content {
-		display: flex;
-		width: 100%;
-		justify-content: flex-end;
-	}
-
-	.network-img {
-		width: 50px;
-		height: 50px;
-	}
-
-	.network {
-		display: flex;
-		flex-direction: column;
-		margin: 5px 20px;
-	}
 }
 
 

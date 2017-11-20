@@ -67,8 +67,42 @@
 
 		</div>
 
-
 		<section id="apropos">
+			<div class="section-content">
+				<h2 class="title">A PROPOS</h2>
+				<div class="main-information-content">
+					<div class="presentation-img-content">
+						<img class="presentation-img" src="images/presentation_img2.jpg">
+					</div>
+					<div class="information-container">
+						<div class="information-content">
+							<p class="information-txt">Je m'appelle <strong>Loric</strong>, j'ai 20 ans et je suis étudiant en <strong>Lincence Professionnelle DIM</strong> (Développeur Informatique Multisupports).<br><br>Passionné par le <strong>développement Web</strong>, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
+							<div class="information-triangle"></div>
+							<div class="center-btn-container information-center-btn-container">
+								<div class="btn-container information-btn-container">
+									<div class="btn-content">
+										<a href="files/CV_LoricLedent.pdf" download="CV_LoricLedent.pdf" class="btn">Télécharger mon CV</a>
+									</div>
+									<div class="underline"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="networks-container">
+						<div class="network">
+							<img class="network-img" src="images/LinkedIn_Logo.png">
+							<a class="network-link" href="https://fr.linkedin.com/in/loric-ledent" target="_blank">Linkedin</a>
+						</div>
+						<div class="network">
+							<img class="network-img" src="images/GitHub_Logo.png">
+							<a class="network-link" href="https://github.com/LedentLoric" target="_blank">GitHub</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section id="apropos">
 			<div class="section-content">
 				<h2 class="title">A PROPOS</h2>
 				<div class="main-information-content">
@@ -91,7 +125,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<section id="competences">
 			<div class="section-content">
@@ -274,57 +308,39 @@
 		<section id="contact">
 			<div class="section-content">
 				<h2 class="title">CONTACT</h2>
-				<form id="form" method="post" action="sendMail.php">
-
-					<p class="form-input">
-						<input class="input" name="mail" type="email" id="mail" placeholder="Mail" required>
-					</p>
-					<p class="form-input">
-						<input class="input" type="text" id="name" name="name" placeholder="Nom" required size="40">
-					</p>
-					<p class="form-input">
-						<input class="input" type="text" id="fname" name="fname" placeholder="Prénom" required size="40">
-					</p>
-					<p class="form-input">
-						<input class="input" name="object" type="text" id="object" placeholder="Objet" required>
-					</p>
-					<p class="form-input">
-						<textarea id="area" name="message" rows="7" placeholder="Votre message..." required></textarea>
-					</p>
-					<p id="msgAjax"></p>
-
-					<!-- <p>
-						<input type="submit" id="submit" class="button button-link" value="Envoyer">
-					</p> -->
-					<div class="center-btn-container contact-btn-container">
-						<div class="btn-container">
-							<div class="btn-content">
-								<a href="javascript: submitForm()" class="btn submit">Envoyer</a>
+				<div class="contact-container">
+					<form id="form" method="post" action="sendMail.php">
+	
+						<p class="form-input">
+							<input class="input" name="mail" type="email" id="mail" placeholder="Mail" required>
+						</p>
+						<p class="form-input">
+							<input class="input" type="text" id="name" name="name" placeholder="Nom" required size="40">
+						</p>
+						<p class="form-input">
+							<input class="input" type="text" id="fname" name="fname" placeholder="Prénom" required size="40">
+						</p>
+						<p class="form-input">
+							<input class="input" name="object" type="text" id="object" placeholder="Objet" required>
+						</p>
+						<p class="form-input">
+							<textarea id="area" name="message" rows="5" placeholder="Votre message..." required></textarea>
+						</p>
+						<p id="msgAjax"></p>
+	
+						<!-- <p>
+							<input type="submit" id="submit" class="button button-link" value="Envoyer">
+						</p> -->
+						<div class="center-btn-container contact-center-btn-container">
+							<div class="btn-container contact-btn-container">
+								<div class="btn-content">
+									<a href="javascript: submitForm()" class="btn submit">Envoyer</a>
+								</div>
+								<div class="underline"></div>
 							</div>
-							<div class="underline"></div>
 						</div>
-					</div>
-
-				</form>
-
-					<!-- <div id="networks-content">
-						<p class="network">
-							<a class="network-link" href="https://fr.linkedin.com/in/loric-ledent" target="_blank">
-								<img class="network-img" src="images/LinkedIn_Logo.png">
-							</a>
-						</p>
-						<p class="network">
-							<a class="network-link" href="http://fr.viadeo.com/fr/profile/loric.ledent" target="_blank">
-								<img class="network-img" src="images/Viadeo_Logo.png">
-							</a>
-						</p>
-						<p class="network">
-							<a class="network-link" href="https://github.com/LedentLoric" target="_blank">
-								<img class="network-img" src="images/GitHub_Logo.png">
-							</a>
-						</p>
-					</div> -->
-				<!-- </div> -->
+					</form>
+				</div>
 			</div>
 		</section>
 
