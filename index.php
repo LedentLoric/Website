@@ -72,7 +72,7 @@
 				<h2 class="title">A PROPOS</h2>
 				<div class="main-information-content">
 					<div class="presentation-img-content">
-						<img class="presentation-img" src="images/presentation_img2.jpg">
+						<img class="presentation-img" src="images/presentation_img.jpg">
 					</div>
 					<div class="information-and-links-container">
 						<div class="information-container">
