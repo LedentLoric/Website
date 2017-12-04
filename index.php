@@ -28,25 +28,25 @@
 				</div>
 
 				<div class="header-title-content">
-					<h1 class="header-title"><a class="header-title-link" href="#parallax">Loric Ledent</a></h1>
+					<h1 class="header-title"><a class="header-title-link menu-link" href="#parallax">Loric Ledent</a></h1>
 				</div>
 
 				<div class="base-menu-content">
 					<ul class="base-menu">
-						<li class="base-menu-element"><a href="#apropos" class="base-menu-link">A propos</a></li>
-						<li class="base-menu-element"><a href="#competences" class="base-menu-link">Compétences</a></li>
-						<li class="base-menu-element"><a href="#portfolio" class="base-menu-link">Portfolio</a></li>
-						<li class="base-menu-element"><a href="#contact" class="base-menu-link">Contact</a></li>
+						<li class="base-menu-element"><a href="#apropos" class="base-menu-link menu-link">A propos</a></li>
+						<li class="base-menu-element"><a href="#competences" class="base-menu-link menu-link">Compétences</a></li>
+						<li class="base-menu-element"><a href="#portfolio" class="base-menu-link menu-link">Portfolio</a></li>
+						<li class="base-menu-element"><a href="#contact" class="base-menu-link menu-link">Contact</a></li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="responsive-menu-content">
 				<ul class="hidden-responsive-menu">
-					<li class="responsive-menu-element"><a href="#apropos" class="responsive-menu-link">A propos</a></li>
-					<li class="responsive-menu-element"><a href="#competences" class="responsive-menu-link">Compétences</a></li>
-					<li class="responsive-menu-element"><a href="#portfolio" class="responsive-menu-link">Portfolio</a></li>
-					<li class="responsive-menu-element"><a href="#contact" class="responsive-menu-link">Contact</a></li>
+					<li class="responsive-menu-element"><a href="#apropos" class="responsive-menu-link menu-link">A propos</a></li>
+					<li class="responsive-menu-element"><a href="#competences" class="responsive-menu-link menu-link">Compétences</a></li>
+					<li class="responsive-menu-element"><a href="#portfolio" class="responsive-menu-link menu-link">Portfolio</a></li>
+					<li class="responsive-menu-element"><a href="#contact" class="responsive-menu-link menu-link">Contact</a></li>
 				</ul>
 			</div>
 
@@ -57,7 +57,7 @@
 					<div id="parallax-btn-container" class="center-btn-container">
 						<div class="btn-container btn-container-for-parralax">
 							<div class="btn-content">
-								<a href="#apropos" class="btn parallax-btn">Me découvrir</a>
+								<a href="#apropos" class="btn parallax-btn menu-link">Me découvrir</a>
 							</div>
 							<div class="underline parralax-underline"></div>
 						</div>
@@ -104,30 +104,6 @@
 			</div>
 		</section>
 
-		<!-- <section id="apropos">
-			<div class="section-content">
-				<h2 class="title">A PROPOS</h2>
-				<div class="main-information-content">
-					<div class="Loric-img-content">
-						<img class="Loric-img" src="images/photo_Loric.jpg">
-					</div>
-					<div class="information-container">
-						<div class="information-content">
-							<p class="information-txt">Je m'appelle <strong>Loric</strong>, j'ai 20 ans et je suis étudiant en <strong>Lincence Professionnelle DIM</strong> (Développeur Informatique Multisupports).<br><br>Passionné par le <strong>développement Web</strong>, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
-							<div class="information-triangle"></div>
-							<div class="center-btn-container information-center-btn-container">
-								<div class="btn-container information-btn-container">
-									<div class="btn-content">
-										<a href="files/CV_LoricLedent.pdf" download="CV_LoricLedent.pdf" class="btn">Télécharger mon CV</a>
-									</div>
-									<div class="underline"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
 
 		<section id="competences">
 			<div class="section-content">
@@ -336,7 +312,7 @@
 						<div class="center-btn-container contact-center-btn-container">
 							<div class="btn-container contact-btn-container">
 								<div class="btn-content">
-									<a href="javascript: submitForm()" class="btn submit">Envoyer</a>
+									<button type="submit" class="btn submit">Envoyer</button>
 								</div>
 								<div class="underline"></div>
 							</div>
@@ -345,9 +321,6 @@
 				</div>
 			</div>
 		</section>
-
-
-
 
 		<footer>
 			Site réalisé en 2017 par Loric LEDENT
