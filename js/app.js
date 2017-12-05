@@ -171,7 +171,7 @@ $(window).on("load", function() {
                 width: $(this).attr('data-percent')
             },2000);
         });
-    }, {offset: '40%'});
+    }, {offset: '50%'});
 
 
     /* ===== Projects Waypoint ===== */
@@ -181,7 +181,7 @@ $(window).on("load", function() {
                 $(element).css("opacity", 1);
             }, index*400);
         });
-    }, {offset: '60%'});
+    }, {offset: '50%'});
 
 
     /* ===== Image Click ===== */
