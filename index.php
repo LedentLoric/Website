@@ -72,12 +72,12 @@
 				<h2 class="title">A PROPOS</h2>
 				<div class="main-information-content">
 					<div class="presentation-img-content">
-						<img class="presentation-img" src="images/presentation_img.jpg">
+						<img class="presentation-img" src="images/images/presentation_img.jpg">
 					</div>
 					<div class="information-and-links-container">
 						<div class="information-container">
 							<div class="information-content">
-								<p class="information-txt">Je m'appelle <strong>Loric</strong>, j'ai 20 ans et je suis étudiant en <strong>Lincence Professionnelle DIM</strong> (Développeur Informatique Multisupports).<br><br>Passionné par le <strong>développement Web</strong>, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
+								<p class="information-txt">Je m'appelle <strong>Loric</strong>, j'ai 20 ans et je suis étudiant en <strong>Lincence Professionnelle DIM</strong> (Développeur Informatique Multisupports) et en alternance au sein de l'entreprise <strong>CREApluriel</strong>.<br><br>Passionné par le <strong>développement Web</strong>, j'ai réalisé ce petit site pour présenter mes compétences et mes projets. Vous avez la possibilité de me contacter par mail, alors si mon profil vous intéresse n'hésitez pas !</p>
 								<div class="information-triangle"></div>
 								<div class="center-btn-container information-center-btn-container">
 									<div class="btn-container information-btn-container">
@@ -91,11 +91,11 @@
 						</div>
 						<div class="networks-container">
 							<div class="network">
-								<img class="network-img" src="images/LinkedIn_Logo.png">
+								<img class="network-img" src="images/logos/logo_linkedin.png">
 								<a class="network-link" href="https://fr.linkedin.com/in/loric-ledent" target="_blank">Linkedin</a>
 							</div>
 							<div class="network">
-								<img class="network-img" src="images/GitHub_Logo.png">
+								<img class="network-img" src="images/logos/logo_github.png">
 								<a class="network-link" href="https://github.com/LedentLoric" target="_blank">GitHub</a>
 							</div>
 						</div>
@@ -162,20 +162,75 @@
 				<h2 class="title">PORTFOLIO</h2>
 				<div class="projects-content">
 					<div class="project-img-content">
+						<img class="project-img" src="images/logos/logo_fdf.png">
+					</div>
+					<div class="project-img-content">
+						<img class="project-img" src="images/logos/logo_pk.PNG">
+					</div>
+					<div class="project-img-content">
 						<img class="project-img" src="images/TripAdvisor_Logo.png">
 					</div>
 					<div class="project-img-content">
-						<img class="project-img" src="images/FermiersdeFrance_Logo.png">
-					</div>
-					<div class="project-img-content">
-						<img class="project-img" src="images/PokeQuiz_Logo.PNG">
-					</div>
-					<div class="project-img-content">
-						<img class="project-img" src="images/SitePerso_Logo.PNG">
+						<img class="project-img" src="images/logos/logo_site.PNG">
 					</div>
 				</div>
 
 				<div id="project-description-content">
+
+					<div class="project" id="FermiersdeFrance">
+
+						<h2 class='project-title'>Projet Fermiers de France</h2>
+
+						<div class="project-description">
+
+							<p class='project-subtitle'>Résumé : </p>
+							Projet tutoré de 2ème année de DUT Informatique consistant à réaliser une plateforme e-commerce de vente de viandes. Elle permettra à des particuliers d'acheter de la viande directement à des producteurs locaux ou de passer une commande qui sera prise en charge par un producteur.<br>
+							Le projet a été livré en avril 2017. Cependant, le client souhaitant davantage de fonctionnalités, le projet a été repris par un autre groupe d'étudiants.<br>
+						</div>
+						<div class="project-information">
+							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
+							Laravel (Framework PHP) / HTML / CSS / jQuery / AJAX / PostGreSQL
+							<p class='project-subtitle'>Infos : </p>
+							Projet initial livré en avril 2017
+						</div>
+
+						<a class='project-screenshot-link' href='images/captures/capture_fdf.PNG' data-lightbox='CaptureFdF' data-title='ScreenShot Fermiers de France'>
+							<img class='project-screenshot' src='images/captures/capture_fdf.PNG'>
+						</a>
+
+						<a class='project-screenshot-link' href='images/captures/capture_fdf2.PNG' data-lightbox='CaptureFdF2' data-title='ScreenShot Fermiers de France	'>
+							<img class='project-screenshot' src='images/captures/capture_fdf2.PNG'>
+						</a>
+
+					</div>
+
+
+					<div class="project" id="PokeQuiz">
+
+						<h2 class='project-title'>Projet PokéQuiz</h2>
+
+						<div class="project-description">
+
+							<p class='project-subtitle'>Résumé : </p>
+							Projet personel consistant à réaliser un site communautaire proposant des quiz basés sur l'univers de Pokémon. Le site permet d'effectuer, de noter et de partager des quiz. Le site offre aussi la possibilité de proposer des quiz, qui suite à une validation, pourront s'ajouter aux quiz disponibles.<br>
+						</div>
+						<div class="project-information">
+							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
+							Laravel (Framework PHP) / HTML / Materialize (Framework CSS) / jQuery / AJAX / mySQL
+							<p class='project-subtitle'>Infos : </p>
+							Projet en pause (formation oblige...)
+						</div>
+
+						<a class='project-screenshot-link' href='images/captures/capture_pk.PNG' data-lightbox='CapturePK' data-title='ScreenShot PokéQuiz'>
+							<img class='project-screenshot' src='images/captures/capture_pk.PNG'>
+						</a>
+
+						<a class='project-screenshot-link' href='images/captures/capture_pk2.PNG' data-lightbox='CapturePK2' data-title='ScreenShot PokéQuiz'>
+							<img class='project-screenshot' src='images/captures/capture_pk2.PNG'>
+						</a>
+
+					</div>
+
 
 					<div class="project" id="TripAdvisor">
 
@@ -206,55 +261,31 @@
 
 					</div>
 
-					<div class="project" id="FermiersdeFrance">
 
-						<h2 class='project-title'>Projet Fermiers de France</h2>
+					<div class="project" id="TemplateBuilder">
 
-						<div class="project-description">
-
-							<p class='project-subtitle'>Résumé : </p>
-							Projet tutoré de 2ème année consistant à réaliser une plateforme e-commerce de vente de viandes. Elle permettra à des particuliers d'acheter de la viande directement à des producteurs locaux ou de passer une commande qui sera prise en charge par un producteur.<br>Le projet arrive à son terme, il sera livré au demandeur dans le mois d'avril.<br>
-						</div>
-						<div class="project-information">
-							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
-							Laravel (Framework PHP) / HTML / CSS / jQuery / AJAX / PostGreSQL
-							<p class='project-subtitle'>Infos : </p>
-							Projet en cours de réalisation
-						</div>
-
-						<a class='project-screenshot-link' href='images/CaptureFdF.PNG' data-lightbox='CaptureFdF' data-title='ScreenShot Fermiers de France'>
-							<img class='project-screenshot' src='images/CaptureFdF.PNG'>
-						</a>
-
-						<a class='project-screenshot-link' href='images/CaptureFdF2.PNG' data-lightbox='CaptureFdF2' data-title='ScreenShot Fermiers de France	'>
-							<img class='project-screenshot' src='images/CaptureFdF2.PNG'>
-						</a>
-
-					</div>
-
-
-					<div class="project" id="PokeQuiz">
-
-						<h2 class='project-title'>Projet PokéQuiz</h2>
+						<h2 class='project-title'>Projet TemplateBuilder</h2>
 
 						<div class="project-description">
 
 							<p class='project-subtitle'>Résumé : </p>
-							Projet personel consistant à réaliser un site communautaire proposant des quiz basés sur l'univers de Pokémon. Le site permet d'effectuer, de noter et de partager des quiz. Le site offre aussi la possibilité de proposer des quiz, qui suite à une validation, pourront s'ajouter aux quiz disponibles.<br>
+							Ce projet s'inscrit dans le cadre d'un outil CRM / ERP développé par CREApluriel, il consistait en la réalisation d'un module de création de template pour Newsletters. L'outil permet à l'utilisateur de structurer le contenu de sa Newsletter sur une, deux ou trois colonnes. Il peut y placer du texte, des images, des boutons et des composants créés sur-mesure. Chaque composant est modifiable et les textes sont éditables de la même façon qu'un éditeur de texte classique style Word.<br>
+							Une fois la Newsletter terminée, elle est convertie en MJML puis compilée afin d'obtenir une Newsletter responsive au format HTML.<br>
+							Le module permet aussi, une fois la Newsletter envoyée, de visualiser les statisques de celle-ci grâce à l'API Mailjet.<br>
 						</div>
 						<div class="project-information">
 							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
-							Laravel (Framework PHP) / HTML / Materialize (Framework CSS) / jQuery / AJAX / mySQL
+							AngularJS / PHP / HTML / CSS / MJML
 							<p class='project-subtitle'>Infos : </p>
-							Projet en cours de réalisation
+							Projet réalisé en septembre 2017
 						</div>
 
-						<a class='project-screenshot-link' href='images/CapturePK.PNG' data-lightbox='CapturePK' data-title='ScreenShot PokéQuiz'>
-							<img class='project-screenshot' src='images/CapturePK.PNG'>
+						<a class='project-screenshot-link' href='images/captures/capture_pk.PNG' data-lightbox='CapturePK' data-title='ScreenShot PokéQuiz'>
+							<img class='project-screenshot' src='images/captures/capture_pk.PNG'>
 						</a>
 
-						<a class='project-screenshot-link' href='images/CapturePK2.PNG' data-lightbox='CapturePK2' data-title='ScreenShot PokéQuiz'>
-							<img class='project-screenshot' src='images/CapturePK2.PNG'>
+						<a class='project-screenshot-link' href='images/captures/capture_pk2.PNG' data-lightbox='CapturePK2' data-title='ScreenShot PokéQuiz'>
+							<img class='project-screenshot' src='images/captures/capture_pk2.PNG'>
 						</a>
 
 					</div>

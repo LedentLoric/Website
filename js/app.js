@@ -4,18 +4,7 @@
 
 
 function displayProject(project, exists) {
-    if(project.attr("src") === "images/TripAdvisor_Logo.png"){
-        if($("#TripAdvisor").is(":visible")){
-            $('#TripAdvisor').hide(400);
-            $("#project-description-content").slideUp("slow");
-        }
-        else if(exists == 0)
-            $('#TripAdvisor').show();
-        else
-            $('#TripAdvisor').show(400);
-    }
-
-    else if(project.attr('src') === "images/FermiersdeFrance_Logo.png"){
+    if(project.attr('src') === "images/logos/logo_fdf.png"){
         if($("#FermiersdeFrance").is(":visible")){
             $('#FermiersdeFrance').hide(300);
             $("#project-description-content").slideUp("slow");
@@ -26,7 +15,7 @@ function displayProject(project, exists) {
             $('#FermiersdeFrance').show(400);
     }
 
-    else if(project.attr('src') === "images/PokeQuiz_Logo.PNG"){
+    else if(project.attr('src') === "images/logos/logo_pk.PNG"){
         if($("#PokeQuiz").is(":visible")){
             $('#PokeQuiz').hide(400);
             $("#project-description-content").slideUp("slow");
@@ -37,7 +26,18 @@ function displayProject(project, exists) {
             $('#PokeQuiz').show(400);
     }
 
-    else if(project.attr('src') === "images/SitePerso_Logo.PNG"){
+    else if(project.attr("src") === "images/TripAdvisor_Logo.png"){
+        if($("#TripAdvisor").is(":visible")){
+            $('#TripAdvisor').hide(400);
+            $("#project-description-content").slideUp("slow");
+        }
+        else if(exists == 0)
+            $('#TripAdvisor').show();
+        else
+            $('#TripAdvisor').show(400);
+    }
+
+    else if(project.attr('src') === "images/logos/logo_site.PNG"){
         if($("#SitePerso").is(":visible")){
             $('#SitePerso').hide(400);
             $("#project-description-content").slideUp("slow");
@@ -105,7 +105,7 @@ $(document).ready(function() {
 
 
     /* ===== Parallax ===== */
-    $('.parallax-window').parallax({imageSrc: 'images/Parallax_img.JPG'});
+    $('.parallax-window').parallax({imageSrc: 'images/images/parallax.JPG'});
 
 });
 
@@ -200,7 +200,8 @@ $(window).on("load", function() {
     /* ===== Contact Waypoint ===== */
     $("#contact").waypoint(function() {
         $(".contact-container").addClass("animated fadeIn");
-    }, {offset: "50%"});
+        console.log('contact waypoint')
+    }, {offset: "70%"});
 
 
     /* ===== Send Form ===== */
