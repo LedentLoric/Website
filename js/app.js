@@ -4,50 +4,52 @@
 
 
 function displayProject(project, exists) {
-    if(project.attr('src') === "images/logos/logo_fdf.png"){
-        if($("#FermiersdeFrance").is(":visible")){
-            $('#FermiersdeFrance').hide(300);
-            $("#project-description-content").slideUp("slow");
-        }
-        else if(exists == 0)
-            $('#FermiersdeFrance').show();
-        else
-            $('#FermiersdeFrance').show(400);
-    }
+    switch (project.attr('src')) {
+        case "images/logos/logo_fdf.png":
+            if ($("#FermiersdeFrance").is(":visible")) {
+                $('#FermiersdeFrance').hide(300);
+                $("#project-description-content").slideUp("slow");
+            }
+            else if (exists == 0)
+                $('#FermiersdeFrance').show();
+            else
+                $('#FermiersdeFrance').show(400);
+            break;
 
-    else if(project.attr('src') === "images/logos/logo_pk.PNG"){
-        if($("#PokeQuiz").is(":visible")){
-            $('#PokeQuiz').hide(400);
-            $("#project-description-content").slideUp("slow");
-        }
-        else if(exists == 0)
-            $('#PokeQuiz').show();
-        else
-            $('#PokeQuiz').show(400);
-    }
+        case "images/logos/logo_pk.png":
+            if ($("#PokeQuiz").is(":visible")) {
+                $('#PokeQuiz').hide(400);
+                $("#project-description-content").slideUp("slow");
+            }
+            else if (exists == 0)
+                $('#PokeQuiz').show();
+            else
+                $('#PokeQuiz').show(400);
+            break;
 
-    else if(project.attr("src") === "images/TripAdvisor_Logo.png"){
-        if($("#TripAdvisor").is(":visible")){
-            $('#TripAdvisor').hide(400);
-            $("#project-description-content").slideUp("slow");
-        }
-        else if(exists == 0)
-            $('#TripAdvisor').show();
-        else
-            $('#TripAdvisor').show(400);
-    }
+        case "images/logos/logo_builder.png":
+            if($("#TemplateBuilder").is(":visible")){
+                $('#TemplateBuilder').hide(400);
+                $("#project-description-content").slideUp("slow");
+            }
+            else if(exists == 0)
+                $('#TemplateBuilder').show();
+            else
+                $('#TemplateBuilder').show(400);
+            break;
 
-    else if(project.attr('src') === "images/logos/logo_site.PNG"){
-        if($("#SitePerso").is(":visible")){
-            $('#SitePerso').hide(400);
-            $("#project-description-content").slideUp("slow");
-        }
-        else if(exists == 0)
-            $('#SitePerso').show();
-        else
-            $('#SitePerso').show(400);
+        case "images/logos/logo_site.png":
+            if($("#SitePerso").is(":visible")){
+                $('#SitePerso').hide(400);
+                $("#project-description-content").slideUp("slow");
+            }
+            else if(exists == 0)
+                $('#SitePerso').show();
+            else
+                $('#SitePerso').show(400);
+            break;
     }
-};
+}
 
 
 // Check email adress
@@ -105,7 +107,7 @@ $(document).ready(function() {
 
 
     /* ===== Parallax ===== */
-    $('.parallax-window').parallax({imageSrc: 'images/images/parallax.JPG'});
+    $('.parallax-window').parallax({imageSrc: 'images/images/parallax.jpg'});
 
 });
 
@@ -200,7 +202,6 @@ $(window).on("load", function() {
     /* ===== Contact Waypoint ===== */
     $("#contact").waypoint(function() {
         $(".contact-container").addClass("animated fadeIn");
-        console.log('contact waypoint')
     }, {offset: "70%"});
 
 

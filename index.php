@@ -165,13 +165,13 @@
 						<img class="project-img" src="images/logos/logo_fdf.png">
 					</div>
 					<div class="project-img-content">
-						<img class="project-img" src="images/logos/logo_pk.PNG">
+						<img class="project-img" src="images/logos/logo_pk.png">
 					</div>
 					<div class="project-img-content">
-						<img class="project-img" src="images/TripAdvisor_Logo.png">
+						<img class="project-img" src="images/logos/logo_builder.png">
 					</div>
 					<div class="project-img-content">
-						<img class="project-img" src="images/logos/logo_site.PNG">
+						<img class="project-img" src="images/logos/logo_site.png">
 					</div>
 				</div>
 
@@ -194,12 +194,12 @@
 							Projet initial livré en avril 2017
 						</div>
 
-						<a class='project-screenshot-link' href='images/captures/capture_fdf.PNG' data-lightbox='CaptureFdF' data-title='ScreenShot Fermiers de France'>
-							<img class='project-screenshot' src='images/captures/capture_fdf.PNG'>
+						<a class='project-screenshot-link' href='images/captures/capture_fdf.png' data-lightbox='CaptureFdF' data-title='ScreenShot Fermiers de France'>
+							<img class='project-screenshot' src='images/captures/capture_fdf.png'>
 						</a>
 
-						<a class='project-screenshot-link' href='images/captures/capture_fdf2.PNG' data-lightbox='CaptureFdF2' data-title='ScreenShot Fermiers de France	'>
-							<img class='project-screenshot' src='images/captures/capture_fdf2.PNG'>
+						<a class='project-screenshot-link' href='images/captures/capture_fdf2.png' data-lightbox='CaptureFdF2' data-title='ScreenShot Fermiers de France	'>
+							<img class='project-screenshot' src='images/captures/capture_fdf2.png'>
 						</a>
 
 					</div>
@@ -221,42 +221,12 @@
 							Projet en pause (formation oblige...)
 						</div>
 
-						<a class='project-screenshot-link' href='images/captures/capture_pk.PNG' data-lightbox='CapturePK' data-title='ScreenShot PokéQuiz'>
-							<img class='project-screenshot' src='images/captures/capture_pk.PNG'>
+						<a class='project-screenshot-link' href='images/captures/capture_pk.png' data-lightbox='CapturePK' data-title='ScreenShot PokéQuiz'>
+							<img class='project-screenshot' src='images/captures/capture_pk.png'>
 						</a>
 
-						<a class='project-screenshot-link' href='images/captures/capture_pk2.PNG' data-lightbox='CapturePK2' data-title='ScreenShot PokéQuiz'>
-							<img class='project-screenshot' src='images/captures/capture_pk2.PNG'>
-						</a>
-
-					</div>
-
-
-					<div class="project" id="TripAdvisor">
-
-						<h2 class='project-title'>Projet TripAdvisor</h2>
-
-						<div class="project-description">
-
-							<p class='project-subtitle'>Résumé : </p>
-							Projet en équipe de 5, visant à réaliser un site Internet (en local) à l'image de TripAdvisor. Le site offre la possibilité de s'inscrire en tant qu'hôtelier ou en tant qu'abonné.<br>
-							Un hôtelier peut se rattacher à un ou plusieurs hôtels, modérer les avis postés sur ses hôtels ou encore leur ajouter des photos.<br>
-							Un abonné peut quant à lui poster des avis, consulter le profil et les avis postés d'un autre abonné, ajouter/supprimer des hôtels de ses favoris.<br>
-							Le site offre aussi la possibilité de rechercher les hôtels par nom, ville, nombre d'étoiles et services proposés, ainsi que de trier les avis des hôtels par note et langue.
-						</div>
-						<div class="project-information">
-							<p class='project-subtitle'>Technologie(s) / Langage(s) utilisé(s) : </p>
-							PHP / HTML / CSS / jQuery / AJAX / PostGreSQL
-							<p class='project-subtitle'>Infos : </p>
-							Projet réalisé en Octobre 2016
-						</div>
-
-						<a class='project-screenshot-link' href='images/CaptureTA2.PNG' data-lightbox='CaptureTA2' data-title='ScreenShot TripAdvisor'>
-							<img class='project-screenshot' src='images/CaptureTA2.PNG'>
-						</a>
-
-						<a class='project-screenshot-link' href='images/CaptureTA.PNG' data-lightbox='CaptureTA' data-title='ScreenShot TripAdvisor'>
-							<img class='project-screenshot' src='images/CaptureTA.PNG'>
+						<a class='project-screenshot-link' href='images/captures/capture_pk2.png' data-lightbox='CapturePK2' data-title='ScreenShot PokéQuiz'>
+							<img class='project-screenshot' src='images/captures/capture_pk2.png'>
 						</a>
 
 					</div>
@@ -280,13 +250,17 @@
 							Projet réalisé en septembre 2017
 						</div>
 
-						<a class='project-screenshot-link' href='images/captures/capture_pk.PNG' data-lightbox='CapturePK' data-title='ScreenShot PokéQuiz'>
-							<img class='project-screenshot' src='images/captures/capture_pk.PNG'>
+						<a class='project-screenshot-link' href='images/captures/capture_builder.png' data-lightbox='CapturePK' data-title='ScreenShot TemplateBuilder'>
+							<img class='project-screenshot' src='images/captures/capture_builder.png'>
 						</a>
 
-						<a class='project-screenshot-link' href='images/captures/capture_pk2.PNG' data-lightbox='CapturePK2' data-title='ScreenShot PokéQuiz'>
-							<img class='project-screenshot' src='images/captures/capture_pk2.PNG'>
+						<a class='project-screenshot-link' href='images/captures/capture_builder2.png' data-lightbox='CapturePK2' data-title='ScreenShot TemplateBuilder'>
+							<img class='project-screenshot' src='images/captures/capture_builder2.png'>
 						</a>
+
+                        <a class='project-screenshot-link' href='images/captures/capture_builder3.png' data-lightbox='CapturePK2' data-title='ScreenShot TemplateBuilder'>
+                            <img class='project-screenshot' src='images/captures/capture_builder3.png'>
+                        </a>
 
 					</div>
 
