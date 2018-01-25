@@ -194,13 +194,16 @@
 							Projet initial livré en avril 2017
 						</div>
 
-						<a class='project-screenshot-link' href='images/captures/capture_fdf.png' data-lightbox='CaptureFdF' data-title='ScreenShot Fermiers de France'>
-							<img class='project-screenshot' src='images/captures/capture_fdf.png'>
-						</a>
-
-						<a class='project-screenshot-link' href='images/captures/capture_fdf2.png' data-lightbox='CaptureFdF2' data-title='ScreenShot Fermiers de France	'>
-							<img class='project-screenshot' src='images/captures/capture_fdf2.png'>
-						</a>
+                        <div class="project-screenshot-left-content">
+                            <a href='images/captures/capture_fdf.png' data-lightbox='CaptureFdF' data-title='ScreenShot Fermiers de France'>
+                                <img class='project-screenshot' src='images/captures/capture_fdf.png'>
+                            </a>
+                        </div>
+                        <div class="project-screenshot-right-content">
+                            <a href='images/captures/capture_fdf2.png' data-lightbox='CaptureFdF2' data-title='ScreenShot Fermiers de France	'>
+                                <img class='project-screenshot' src='images/captures/capture_fdf2.png'>
+                            </a>
+                        </div>
 
 					</div>
 
@@ -220,14 +223,16 @@
 							<p class='project-subtitle'>Infos : </p>
 							Projet en pause (formation oblige...)
 						</div>
-
-						<a class='project-screenshot-link' href='images/captures/capture_pk.png' data-lightbox='CapturePK' data-title='ScreenShot PokéQuiz'>
-							<img class='project-screenshot' src='images/captures/capture_pk.png'>
-						</a>
-
-						<a class='project-screenshot-link' href='images/captures/capture_pk2.png' data-lightbox='CapturePK2' data-title='ScreenShot PokéQuiz'>
-							<img class='project-screenshot' src='images/captures/capture_pk2.png'>
-						</a>
+                        <div class="project-screenshot-left-content">
+						    <a href='images/captures/capture_pk.png' data-lightbox='CapturePK' data-title='ScreenShot PokéQuiz'>
+						    	<img class='project-screenshot' src='images/captures/capture_pk.png'>
+						    </a>
+                        </div>
+                        <div class="project-screenshot-right-content">
+						    <a href='images/captures/capture_pk2.png' data-lightbox='CapturePK2' data-title='ScreenShot PokéQuiz'>
+							    <img class='project-screenshot' src='images/captures/capture_pk2.png'>
+						    </a>
+                        </div>
 
 					</div>
 
@@ -250,17 +255,20 @@
 							Projet réalisé en septembre 2017
 						</div>
 
-						<a class='project-screenshot-link' href='images/captures/capture_builder.png' data-lightbox='CapturePK' data-title='ScreenShot TemplateBuilder'>
-							<img class='project-screenshot' src='images/captures/capture_builder.png'>
-						</a>
+                        <div class="project-screenshot-left-content">
+					        <a href='images/captures/capture_builder.png' data-lightbox='CapturePK' data-title='ScreenShot TemplateBuilder'>
+					        	<img class='project-screenshot' src='images/captures/capture_builder.png'>
+					        </a>
 
-						<a class='project-screenshot-link' href='images/captures/capture_builder2.png' data-lightbox='CapturePK2' data-title='ScreenShot TemplateBuilder'>
-							<img class='project-screenshot' src='images/captures/capture_builder2.png'>
-						</a>
-
-                        <a class='project-screenshot-link' href='images/captures/capture_builder3.png' data-lightbox='CapturePK2' data-title='ScreenShot TemplateBuilder'>
-                            <img class='project-screenshot' src='images/captures/capture_builder3.png'>
-                        </a>
+                            <a href='images/captures/capture_builder3.png' data-lightbox='CapturePK2' data-title='ScreenShot TemplateBuilder'>
+                                <img class='project-screenshot' src='images/captures/capture_builder3.png'>
+                            </a>
+                        </div>
+                        <div class="project-screenshot-right-content">
+                            <a href='images/captures/capture_builder2.png' data-lightbox='CapturePK2' data-title='ScreenShot TemplateBuilder'>
+                                <img class='project-screenshot' src='images/captures/capture_builder2.png'>
+                            </a>
+                        </div>
 
 					</div>
 

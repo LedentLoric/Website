@@ -824,19 +824,26 @@ a, a:visited {text-decoration: none;}
 .project-description {
 	width: 45%;
 	margin-right: 5%;
+    text-align: justify;
 }
 
 .project-information {
 	width: 45%;
 	margin-left: 5%;
+    text-align: justify;
 }
 
-.project-screenshot-link {
+.project-screenshot-left-content {
 	width: 45%;
-	margin: 2.5%;
+	margin: 25px 5% 0 0;
 }
 
-.project-screenshot {border: solid 1px #455a64;}
+.project-screenshot-right-content {
+    width: 45%;
+    margin: 25px 0 0 5%;
+}
+
+.project-screenshot {border: solid 1px #E0E0E0;}
 
 
 @media only screen and (max-width: 768px) {
@@ -867,6 +874,16 @@ a, a:visited {text-decoration: none;}
 		margin: 0;
 		margin-bottom: 20px;
 	}
+
+    .project-screenshot-left-content {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .project-screenshot-right-content {
+        width: 100%;
+        margin: 25px 0;
+    }
 }
 
 
