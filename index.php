@@ -110,7 +110,7 @@
 				<h2 class="title">COMPETENCES</h2>
 				<div class="skillbar clearfix " data-percent="90%">
 					<div class="skillbar-title" style="background: #DD7E03;"><span>PHP</span></div>
-					<div class="skillbar-subtitle"><span>Laravel</span></div>
+					<div class="skillbar-subtitle"><span>Symfony, Laravel</span></div>
 					<div class="skillbar-bar" style="background: #DD7E03;"></div>
 					<div class="skill-bar-percent">90%</div>
 				</div>
