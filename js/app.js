@@ -5,7 +5,7 @@
 
 function displayProject(project, exists) {
     switch (project.attr('src')) {
-        case "images/logos/logo_fdf.png":
+        case "images/logos/logo_fdf.png", "../images/logos/logo_fdf.png":
             if ($("#FermiersdeFrance").is(":visible")) {
                 $('#FermiersdeFrance').hide(300);
                 $("#project-description-content").slideUp("slow");
@@ -16,7 +16,7 @@ function displayProject(project, exists) {
                 $('#FermiersdeFrance').show(400);
             break;
 
-        case "images/logos/logo_pk.png":
+        case "images/logos/logo_pk.png", "../images/logos/logo_pk.png":
             if ($("#PokeQuiz").is(":visible")) {
                 $('#PokeQuiz').hide(400);
                 $("#project-description-content").slideUp("slow");
@@ -27,7 +27,7 @@ function displayProject(project, exists) {
                 $('#PokeQuiz').show(400);
             break;
 
-        case "images/logos/logo_builder.png":
+        case "images/logos/logo_builder.png", "../images/logos/logo_builder.png":
             if($("#TemplateBuilder").is(":visible")){
                 $('#TemplateBuilder').hide(400);
                 $("#project-description-content").slideUp("slow");
@@ -38,7 +38,7 @@ function displayProject(project, exists) {
                 $('#TemplateBuilder').show(400);
             break;
 
-        case "images/logos/logo_site.png":
+        case "images/logos/logo_site.png", "../images/logos/logo_site.png":
             if($("#SitePerso").is(":visible")){
                 $('#SitePerso').hide(400);
                 $("#project-description-content").slideUp("slow");
@@ -107,7 +107,18 @@ $(document).ready(function() {
 
 
     /* ===== Parallax ===== */
-    $('.parallax-window').parallax({imageSrc: 'images/images/parallax.jpg'});
+    var parallax = new Image();
+    parallax.onload = function() {
+        $('.parallax-window').parallax({imageSrc: 'images/images/parallax.jpg'});
+    }
+
+    parallax.onerror = function() {
+        $('.parallax-window').parallax({imageSrc: '../images/images/parallax.jpg'});
+    }
+
+    parallax.src = 'images/images/parallax.jpg';
+
+   
 
 });
 
