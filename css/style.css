@@ -529,7 +529,7 @@ a, a:visited {text-decoration: none;}
 	padding: 35px;
 	padding-bottom: 45px;
 	font-size: 18px;
-	text-align: justify;
+	/*text-align: justify;*/
 	color: black;
 }
 
@@ -839,13 +839,13 @@ a, a:visited {text-decoration: none;}
 .project-description {
 	width: 45%;
 	margin-right: 5%;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 .project-information {
 	width: 45%;
 	margin-left: 5%;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 .project-screenshot-left-content {
